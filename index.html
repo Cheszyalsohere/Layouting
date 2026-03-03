@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modul 4 - CSS Layout Practice</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="grid-container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-brand">
+        <span class="logo">&#9670; MyWebsite</span>
+      </div>
+      <nav class="header-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- BODY / MAIN CONTENT -->
+    <main class="body">
+      <article class="card">
+        <h2>Understanding CSS Grid</h2>
+        <p>CSS Grid is a two-dimensional layout system that allows you to define rows and columns explicitly. With grid-template-areas, you can name sections and assign elements to them intuitively.</p>
+        <span class="tag">CSS</span>
+        <span class="tag">Grid</span>
+      </article>
+      <article class="card">
+        <h2>Mastering Flexbox</h2>
+        <p>Flexbox excels at one-dimensional layouts. Using justify-content, align-items, and flex-wrap, you can create flexible and responsive designs without floats or complex positioning.</p>
+        <span class="tag">Flexbox</span>
+        <span class="tag">Layout</span>
+      </article>
+      <article class="card">
+        <h2>Combining Grid and Flexbox</h2>
+        <p>Use CSS Grid for macro page structure and Flexbox for micro-level component arrangement within each section. This gives you full control over your layout.</p>
+        <span class="tag">HTML</span>
+        <span class="tag">Responsive</span>
+      </article>
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="widget">
+        <h3>About</h3>
+        <p>Practice page for Modul 4 — CSS Layout using Grid and Flexbox techniques.</p>
+      </div>
+      <div class="widget">
+        <h3>Categories</h3>
+        <ul>
+          <li>CSS Basics</li>
+          <li>Flexbox</li>
+          <li>CSS Grid</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+      <div class="widget">
+        <h3>Popular Posts</h3>
+        <ul>
+          <li>Understanding Flexbox</li>
+          <li>Grid Template Areas</li>
+          <li>Responsive Layouts</li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-copy">
+        &copy; 2024 MyWebsite. All rights reserved.
+      </div>
+      <div class="footer-social">
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
